@@ -1,0 +1,30 @@
+pre#data {display:none;}
+
+div.bar {
+display: inline-block;
+width: 20px;
+height: 75px;   /* We'll override this later */
+background-color: teal;
+margin-right: 2px;
+}
+
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: gray;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: Arial;
+    font-size: 11px;
+    color: gray;
+}
